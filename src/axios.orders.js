@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const instance = axios.create({
+let instance = axios.create({
   baseURL: "https://emi-burger-default-rtdb.firebaseio.com/",
 });
 
