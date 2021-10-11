@@ -16,7 +16,7 @@ export const purchaseBurgerFail = (error) => {
   };
 };
 
-export const purchaseBurgerStart = () => {
+export let purchaseBurgerStart = () => {
   return {
     type: actionTypes.PURCHASE_BURGER_START,
   };
